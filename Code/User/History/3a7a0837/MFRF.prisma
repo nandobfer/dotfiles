@@ -1,0 +1,21 @@
+generator client {
+    provider = "prisma-client-js"
+    previewFeatures = ["fullTextSearch", "fullTextIndex"]
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model User {
+    id          Int         @id @default(autoincrement())
+    email       String      @unique
+    document    String      @unique
+    password    String
+    name        String
+    producer    Boolean     @default(false)
+    agent       Boolean     @default(false)
+    business    Boolean     @default(false)
+    shipping    Boolean     @default(false)
+}

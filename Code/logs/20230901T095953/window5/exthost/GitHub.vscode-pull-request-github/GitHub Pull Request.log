@@ -1,0 +1,174 @@
+2023-09-01 12:24:06.531 [info] Looking for git repository
+2023-09-01 12:24:06.531 [info] Found 0 repositories during activation
+2023-09-01 12:24:06.531 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 12:24:06.536 [info] Registering git provider
+2023-09-01 12:24:06.536 [info] Review> Validate state in progress
+2023-09-01 12:24:06.536 [info] Review> Validating state...
+2023-09-01 12:24:06.624 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 12:24:07.168 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 12:24:07.168 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 12:24:07.257 [info] Repo state for file:///home/burgos/code/agenciaboz-dev/sion.api changed.
+2023-09-01 12:24:07.257 [info] Repo file:///home/burgos/code/agenciaboz-dev/sion.api has already been setup.
+2023-09-01 12:24:07.795 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 13:36:22.824 [info] Review> Validate state in progress
+2023-09-01 13:36:22.824 [info] Review> Validating state...
+2023-09-01 13:36:22.850 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 13:36:23.027 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 13:36:23.027 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 13:36:23.508 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 13:36:25.007 [info] Review> Validate state in progress
+2023-09-01 13:36:25.007 [info] Review> Validating state...
+2023-09-01 13:36:25.060 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 13:36:25.129 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 13:36:25.129 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 13:36:25.628 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 13:36:40.647 [info] Review> Validate state in progress
+2023-09-01 13:36:40.647 [info] Review> Validating state...
+2023-09-01 13:36:40.731 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 13:36:40.819 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 13:36:40.819 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 13:36:41.408 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 13:36:45.511 [info] Review> Validate state in progress
+2023-09-01 13:36:45.511 [info] Review> Validating state...
+2023-09-01 13:36:45.530 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 13:36:45.642 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 13:36:45.642 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 13:36:46.227 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:26:12.323 [info] Review> Validate state in progress
+2023-09-01 14:26:12.323 [info] Review> Validating state...
+2023-09-01 14:26:12.341 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:26:12.480 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:26:12.480 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:26:13.221 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:32:22.019 [info] Review> Validate state in progress
+2023-09-01 14:32:22.019 [info] Review> Validating state...
+2023-09-01 14:32:22.073 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:32:22.164 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:32:22.164 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:32:22.743 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:32:29.959 [info] Review> Validate state in progress
+2023-09-01 14:32:29.959 [info] Review> Validating state...
+2023-09-01 14:32:30.022 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:32:30.097 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:32:30.097 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:32:30.730 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:35:14.327 [info] Looking for git repository
+2023-09-01 14:35:14.327 [info] Found 0 repositories during activation
+2023-09-01 14:35:14.327 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 14:35:14.331 [info] Registering git provider
+2023-09-01 14:35:14.331 [info] Review> Validate state in progress
+2023-09-01 14:35:14.331 [info] Review> Validating state...
+2023-09-01 14:35:14.381 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:35:14.927 [info] Repo state for file:///home/burgos/code/agenciaboz-dev/sion.api changed.
+2023-09-01 14:35:14.927 [info] Repo file:///home/burgos/code/agenciaboz-dev/sion.api has already been setup.
+2023-09-01 14:35:15.025 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:35:15.025 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:35:15.606 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:38:25.067 [info] Review> Validate state in progress
+2023-09-01 14:38:25.067 [info] Review> Validating state...
+2023-09-01 14:38:25.136 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:38:25.259 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:38:25.259 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:38:25.958 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:38:29.119 [info] Review> Validate state in progress
+2023-09-01 14:38:29.119 [info] Review> Validating state...
+2023-09-01 14:38:29.143 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:38:29.268 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:38:29.268 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:38:29.845 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:41:04.551 [info] Review> Validate state in progress
+2023-09-01 14:41:04.551 [info] Review> Validating state...
+2023-09-01 14:41:04.602 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:41:04.696 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:41:04.696 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:41:05.289 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 14:41:07.655 [info] Review> Validate state in progress
+2023-09-01 14:41:07.655 [info] Review> Validating state...
+2023-09-01 14:41:07.676 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 14:41:07.801 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 14:41:07.801 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 14:41:08.464 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 15:53:10.345 [info] Review> Validate state in progress
+2023-09-01 15:53:10.345 [info] Review> Validating state...
+2023-09-01 15:53:10.354 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 15:53:10.493 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 15:53:10.493 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 15:53:11.122 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 15:53:11.515 [info] Review> Validate state in progress
+2023-09-01 15:53:11.515 [info] Review> Validating state...
+2023-09-01 15:53:11.554 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 15:53:11.634 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 15:53:11.634 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 15:53:12.163 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 15:58:36.505 [info] Review> Validate state in progress
+2023-09-01 15:58:36.505 [info] Review> Validating state...
+2023-09-01 15:58:36.568 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 15:58:36.709 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 15:58:36.709 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 15:58:37.240 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 15:58:42.822 [info] Review> Validate state in progress
+2023-09-01 15:58:42.822 [info] Review> Validating state...
+2023-09-01 15:58:42.841 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 15:58:42.981 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 15:58:42.981 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 15:58:43.591 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:06:43.073 [info] Review> Validate state in progress
+2023-09-01 16:06:43.073 [info] Review> Validating state...
+2023-09-01 16:06:43.131 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:06:43.227 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:06:43.227 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:06:43.843 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:06:46.334 [info] Review> Validate state in progress
+2023-09-01 16:06:46.334 [info] Review> Validating state...
+2023-09-01 16:06:46.357 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:06:46.503 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:06:46.503 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:06:47.117 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:07:38.118 [info] Review> Validate state in progress
+2023-09-01 16:07:38.118 [info] Review> Validating state...
+2023-09-01 16:07:38.202 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:07:38.284 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:07:38.284 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:07:38.830 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:09:48.843 [info] Review> Validate state in progress
+2023-09-01 16:09:48.843 [info] Review> Validating state...
+2023-09-01 16:09:48.897 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:09:49.002 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:09:49.002 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:09:49.596 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:09:53.609 [info] Review> Validate state in progress
+2023-09-01 16:09:53.609 [info] Review> Validating state...
+2023-09-01 16:09:53.615 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:09:53.755 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:09:53.755 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:09:54.269 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:14:13.489 [info] Review> Validate state in progress
+2023-09-01 16:14:13.489 [info] Review> Validating state...
+2023-09-01 16:14:13.543 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:14:13.658 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:14:13.658 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:14:14.174 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:14:17.113 [info] Review> Validate state in progress
+2023-09-01 16:14:17.113 [info] Review> Validating state...
+2023-09-01 16:14:17.138 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:14:17.296 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:14:17.296 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:14:17.815 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 16:23:30.619 [info] Review> Validate state in progress
+2023-09-01 16:23:30.619 [info] Review> Validating state...
+2023-09-01 16:23:30.628 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 16:23:30.758 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 16:23:30.758 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 16:23:31.355 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 18:17:06.756 [info] Review> Validate state in progress
+2023-09-01 18:17:06.756 [info] Review> Validating state...
+2023-09-01 18:17:06.808 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 18:17:06.909 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 18:17:06.909 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 18:17:07.446 [info] Review> No matching pull request metadata found on GitHub for current branch main
+2023-09-01 18:17:16.841 [info] Review> Validate state in progress
+2023-09-01 18:17:16.841 [info] Review> Validating state...
+2023-09-01 18:17:16.890 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-01 18:17:16.991 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-01 18:17:16.991 [info] Review> no matching pull request metadata found for current branch main
+2023-09-01 18:17:17.662 [info] Review> No matching pull request metadata found on GitHub for current branch main

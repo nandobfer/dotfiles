@@ -1,0 +1,1 @@
+export const io("wss://app.agenciaboz.com.br:4103")

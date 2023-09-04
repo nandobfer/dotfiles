@@ -1,0 +1,12 @@
+2023-09-04 10:38:21.478 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.printWidth'. This property is already registered.
+2023-09-04 10:38:21.480 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.tabWidth'. This property is already registered.
+2023-09-04 10:38:21.481 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.singleQuote'. This property is already registered.
+2023-09-04 10:38:21.483 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.trailingComma'. This property is already registered.
+2023-09-04 10:38:21.484 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.bracketSpacing'. This property is already registered.
+2023-09-04 10:38:21.485 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.jsxBracketSameLine'. This property is already registered.
+2023-09-04 10:38:21.486 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.useTabs'. This property is already registered.
+2023-09-04 10:38:21.488 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-04 10:38:21.489 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.includeGlobPattern'. This property is already registered.
+2023-09-04 10:38:21.490 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.excludeGlobPattern'. This property is already registered.
+2023-09-04 10:38:21.492 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.enableEmmetSupport'. This property is already registered.
+2023-09-04 10:38:21.647 [info] [Zignd.html-css-class-completion]: Command `html-css-class-completion.cache` already registered by SCSS Everywhere (gencer.html-slim-scss-css-class-completion)

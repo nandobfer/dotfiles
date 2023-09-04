@@ -1,0 +1,320 @@
+{
+    "Debug Style": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "ds",
+        "body": [
+            "borderColor: '$1', borderWidth: 1$2"
+        ],
+        "description": "Insert border to components"
+    },
+    "Create Container": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "cc",
+        "body": [
+            "flex: 1, justifyContent: '${1:center}', alignItems: '${2:center}',$0"
+        ],
+        "description": "Insert border to components"
+    },
+    "Screen dimensions": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "scd",
+        "body": [
+            "const { width: screenWidth${1:, height: screenHeight} } = Dimensions$2.get('screen')",
+            "$0"
+        ],
+        "description": "Insert border to components"
+    },
+    "new react component typescript": {
+        "scope": "typescript,typescriptreact",
+        "prefix": "nrc",
+        "body": [
+            "import React from 'react'",
+            "import {Box} from '@mui/material'",
+            "",
+            "interface $1Props {",
+            "    $2",
+            "}",
+            "",
+            "export const $1:React.FC<$1Props> = ({ $2 }) => {",
+            "    $3",
+            "    return (",
+            "        <Box sx={{}}>",
+            "            $4",
+            "        </Box>",
+            "    )",
+            "}",
+        ],
+        "description": "Create a new function importing style and export a new arrow function"
+    },
+    "new style typescript": {
+        "scope": "typescript,typescriptreact",
+        "prefix": "ns",
+        "body": [
+        "import colors from '../../colors'",
+        "import { SxProps } from '@mui/material'",
+        "",
+        "interface Styles {",
+        "    body: React.CSSProperties",
+        "}",
+        "",
+        "const styles: Styles = {",
+        "    body: {",
+        "        $1",
+        "    },",
+        "}",
+        "",
+        "export default styles"
+        ],
+        "description": "Create a new style object"
+    },
+    "new react component": {
+        "scope": "javascript,javascriptreact",
+        "prefix": "nrc",
+        "body": [
+            "import './style.scss';",
+            "",
+            "export const $1 = ($2) => {",
+            "    $3",
+            "    return (",
+            "        <div className='$1-Component' >",
+            "            $4",
+            "        </div>",
+            "    )",
+            "}",
+        ],
+        "description": "Create a new function importing style and export a new arrow function"
+    },
+    "new react context typescript": {
+        "scope": "typescriptreact",
+        "prefix": "nrcx",
+        "body": [
+            "import { createContext, useState } from 'react';",
+            "import React from 'react';",
+            "",
+            "export interface ${1/(.)/${1:/capitalize}/} {",
+            "    $2",
+            "}",
+            "",
+            "interface ${1/(.)/${1:/capitalize}/}ContextValue {",
+            "    value: ${1/(.)/${1:/capitalize}/}|null;",
+            "    setValue: (value:${1/(.)/${1:/capitalize}/}|null) => void;",
+            "}",
+            "",
+            "interface ${1/(.)/${1:/capitalize}/}ProviderProps {",
+            "    children: React.ReactNode",
+            "}",
+            "",
+            "const ${1/(.)/${1:/capitalize}/}Context = createContext<${1/(.)/${1:/capitalize}/}ContextValue>({} as ${1/(.)/${1:/capitalize}/}ContextValue);",
+            "",
+            "export default ${1/(.)/${1:/capitalize}/}Context;",
+            "",
+            "export const ${1/(.)/${1:/capitalize}/}Provider:React.FC<${1/(.)/${1:/capitalize}/}ProviderProps> = ({children}) => {",
+            "    const [value, setValue] = useState<${1/(.)/${1:/capitalize}/}|null>($3)",
+            "",
+            "    return (",
+            "         <${1/(.)/${1:/capitalize}/}Context.Provider value={{value, setValue}}>",
+            "              {children}",
+            "         </${1/(.)/${1:/capitalize}/}Context.Provider>",
+            "    )",
+            "}",
+        ],
+        "description": "Create a new context to be used with the context hook"
+    },
+    "new react context": {
+        "scope": "javascript,typescript,javascriptreact",
+        "prefix": "nrcx",
+        "body": [
+            "import { createContext, useState } from 'react';",
+            "",
+            "const ${1/(.)/${1:/capitalize}/}Context = createContext({});",
+            "",
+            "export default ${1/(.)/${1:/capitalize}/}Context;",
+            "",
+            "",
+            "export const ${1/(.)/${1:/capitalize}/}Provider = ({children}) => {",
+            "    const [value, setValue] = useState($2)",
+            "",
+            "    return (",
+            "        <${1/(.)/${1:/capitalize}/}Context.Provider value={{value, setValue}}>",
+            "            {children}",
+            "        </${1/(.)/${1:/capitalize}/}Context.Provider>",
+            "    )",
+            "}",
+        ],
+        "description": "Create a new context to be used with the context hook"
+    },
+    "new react context hook": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "nrcxh",
+        "body": [
+            "import { useContext } from 'react'",
+            "import ${1/(.)/${1:/capitalize}/}Context from '../contexts/$1Context'",
+            "",
+            "export const use${1/(.)/${1:/capitalize}/} = () => {",
+            "    const $1Context = useContext(${1/(.)/${1:/capitalize}/}Context);",
+            "    const $1 = $1Context.value",
+            "    const set${1/(.)/${1:/capitalize}/} = $1Context.setValue",
+            "",
+            "    return {$1, set${1/(.)/${1:/capitalize}/}}",
+            "}",
+        ],
+        "description": "Create a new context to be used with the context hook"
+    },
+    "use effect consolelog": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "uec",
+        "body": [
+            "useEffect(() => {",
+            "    console.log($1)",
+            "}, [$1])",
+        ],
+        "description": "Create a new context to be used with the context hook"
+    },
+    "catch api error": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "catcherror",
+        "body": [
+            ".catch(error => console.error(error))",
+        ],
+        "description": "Logs the error in console"
+    },
+    "import svg as react component": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "irsvg",
+        "body": [
+            "import { ReactComponent as ${1/(.)/${1:/capitalize}/}Icon } from '$2'",
+        ],
+        "description": "Create a new context to be used with the context hook"
+    },
+    "is mobile use media query": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "ismobile",
+        "body": [
+            "const isMobile = useMediaQuery$1('(orientation: portrait)')",
+        ],
+        "description": "is mobile hook"
+    },
+    "use measure": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "measure",
+        "body": [
+            "const [ref, {$1}] = useMeasure$2()",
+        ],
+        "description": "get height or width from useMeasure, pass the ref to the desired component"
+    },
+    "use context hook": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "usecxh",
+        "body": [
+            "const {$1, set${1/(.)/${1:/capitalize}/}} = use${1/(.)/${1:/capitalize}/}$2()",
+        ],
+        "description": "initialize hooked context"
+    },
+    "new react native component": {
+        "scope": "javascript,javascriptreact",
+        "prefix": "nrnc",
+        "body": [
+            "import { styles } from './style';",
+            "",
+            "export const $1 = ($2) => {",
+            "    $3",
+            "    return (",
+            "        $4",
+            "    )",
+            "}",
+        ],
+        "description": "Create a new function importing style and export a new arrow function"
+    },
+    "new react native component typescript": {
+        "scope": "typescript,typescriptreact",
+        "prefix": "nrnc",
+        "body": [
+            "import React from 'react'",
+            "import {View} from 'react-native'",
+            "",
+            "interface $1Props {",
+            "    $2",
+            "}",
+            "",
+            "export const $1:React.FC<$1Props> = ({ $2 }) => {",
+            "    $3",
+            "    return (",
+            "        <View syle={{}}>",
+            "            $4",
+            "        </View>",
+            "    )",
+            "}",
+        ],
+        "description": "Create a new function importing style and export a new arrow function"
+    },
+    "new react native style" : {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "nrns",
+        "body": [
+            "import { StyleSheet, Dimensions } from 'react-native';",
+            "import { COLORS } from '../../colors';",
+            "",
+            "const vw = Dimensions.get('window').width / 100;",
+            "",
+            "export const styles = StyleSheet.create({",
+            "    $1",
+            "});",
+        ],
+    },
+    "import sass colors": {
+        "scope": "sass,scss",
+        "prefix": "isc",
+        "body": [
+            "@import '/src/sass/colors';",
+            "",
+            "$1"
+        ],
+        "description": "Import color from default dir"
+    },
+    "mobile media query": {
+        "scope": "sass,scss, css",
+        "prefix": "mq",
+        "body": [
+            "@media only screen and (max-width: 600px) {",
+            "    $1",
+            "}",
+        ],
+        "description": "mobile media query"
+    },
+    "desktop media query": {
+        "scope": "sass, scss, css",
+        "prefix": "desktop",
+        "body": [
+            "@media (orientation: landscape) {",
+            "    $1",
+            "}"
+        ],
+        "description": "desktop media query"
+    },
+    "min height": {
+        "scope": "sass, scss, css",
+        "prefix": "minheight",
+        "body": [
+            "min-height: -webkit-fill-available;",
+        ],
+        "description": "min height set to maximum available"
+    },
+    "debug style": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "ds",
+        "body": [
+            "borderColor: '$1', borderWidth: 3,",
+        ],
+        "description": "Import color from default dir"
+    },
+    "align-justify center js": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "jacjs",
+        "body": [
+            "justifyContent: 'center',",
+            "alignItems: 'center',",
+            "$1",
+        ],
+        "description": "Justify contents and align items CENTER"
+    }
+}

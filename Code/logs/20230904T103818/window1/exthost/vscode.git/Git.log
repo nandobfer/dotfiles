@@ -1,0 +1,19 @@
+2023-09-04 10:38:31.876 [info] Log level: Info
+2023-09-04 10:38:31.876 [info] Validating found git in: "git"
+2023-09-04 10:38:31.876 [info] Using git "2.34.1" from "git"
+2023-09-04 10:38:31.876 [info] > git rev-parse --show-toplevel [139ms]
+2023-09-04 10:38:31.880 [info] > git rev-parse --git-dir --git-common-dir [178ms]
+2023-09-04 10:38:32.011 [info] Open repository: /home/burgos/code/casaludica.paint
+2023-09-04 10:38:32.216 [info] > git config --get commit.template [130ms]
+2023-09-04 10:38:32.231 [info] > git rev-parse --show-toplevel [18ms]
+2023-09-04 10:38:32.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [66ms]
+2023-09-04 10:38:32.442 [info] > git rev-parse --show-toplevel [9ms]
+2023-09-04 10:38:32.460 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-04 10:38:32.489 [info] > git rev-parse --show-toplevel [9ms]
+2023-09-04 10:38:32.524 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-04 10:38:32.632 [info] > git status -z -uall [245ms]
+2023-09-04 10:38:32.681 [info] > git rev-parse --show-toplevel [92ms]
+2023-09-04 10:38:32.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2023-09-04 10:38:32.747 [info] > git config --get commit.template [66ms]
+2023-09-04 10:38:32.792 [info] > git rev-parse --show-toplevel [46ms]
+2023-09-04 10:38:32.886 [info] > git status -z -uall [102ms]

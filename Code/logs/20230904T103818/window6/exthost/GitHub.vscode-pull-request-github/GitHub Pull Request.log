@@ -1,0 +1,24 @@
+2023-09-04 10:40:34.169 [info] Looking for git repository
+2023-09-04 10:40:34.169 [info] Found 0 repositories during activation
+2023-09-04 10:40:34.169 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-04 10:40:34.173 [info] Registering git provider
+2023-09-04 10:40:34.174 [info] Review> Validate state in progress
+2023-09-04 10:40:34.174 [info] Review> Validating state...
+2023-09-04 10:40:34.198 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-api
+2023-09-04 10:40:34.470 [info] Repo state for file:///home/burgos/code/agenciaboz-api changed.
+2023-09-04 10:40:34.470 [info] Repo file:///home/burgos/code/agenciaboz-api has already been setup.
+2023-09-04 10:40:35.070 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-04 10:40:35.070 [info] Review> no matching pull request metadata found for current branch master
+2023-09-04 10:40:35.427 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-04 10:43:54.565 [info] Review> Validate state in progress
+2023-09-04 10:43:54.565 [info] Review> Validating state...
+2023-09-04 10:43:54.620 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-api
+2023-09-04 10:43:55.534 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-04 10:43:55.534 [info] Review> no matching pull request metadata found for current branch master
+2023-09-04 10:43:55.864 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-04 10:43:58.164 [info] Review> Validate state in progress
+2023-09-04 10:43:58.164 [info] Review> Validating state...
+2023-09-04 10:43:58.190 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-api
+2023-09-04 10:43:58.913 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-04 10:43:58.913 [info] Review> no matching pull request metadata found for current branch master
+2023-09-04 10:43:59.253 [info] Review> No matching pull request metadata found on GitHub for current branch master

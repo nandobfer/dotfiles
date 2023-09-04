@@ -1,0 +1,161 @@
+2023-09-01 12:23:33.426 [info] Extension host with pid 20684 started
+2023-09-01 12:23:33.426 [info] Skipping acquiring lock for /home/burgos/.config/Code/User/workspaceStorage/9827355b0653292ad3a886ea5617ad29.
+2023-09-01 12:23:33.635 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-01 12:23:33.639 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-09-01 12:23:33.651 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-09-01 12:23:33.676 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-09-01 12:23:33.689 [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.307 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.325 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.336 [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.359 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.365 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.420 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-09-01 12:23:34.427 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2023-09-01 12:23:34.572 [error] Activating extension Zignd.html-css-class-completion failed due to an error:
+2023-09-01 12:23:34.572 [error] Error: command 'html-css-class-completion.cache' already exists
+    at a.registerCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76383)
+    at Object.registerCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20180)
+    at /home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:949745
+    at Generator.next (<anonymous>)
+    at /home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:945427
+    at new Promise (<anonymous>)
+    at a (/home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:945172)
+    at t.activate (/home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:949006)
+    at Function.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13102)
+    at Function.db (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12816)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10913
+    at p.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6206)
+    at p.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6169)
+    at p.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:5626)
+2023-09-01 12:23:34.679 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2023-09-01 12:23:34.696 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.730 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-01 12:23:34.943 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-01 12:23:35.038 [info] Eager extensions activated
+2023-09-01 12:23:35.075 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.077 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.083 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.293 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.324 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.357 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.399 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.424 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-01 12:23:35.748 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-01 12:26:20.087 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescriptreact'
+2023-09-01 12:26:20.116 [info] ExtensionService#_doActivateExtension Prisma.prisma, startup: false, activationEvent: 'onLanguage:typescriptreact'
+2023-09-01 12:26:20.231 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-01 12:27:49.958 [warning] TextEditor is closed/disposed
+2023-09-01 12:27:58.236 [warning] TextEditor is closed/disposed
+2023-09-01 12:28:00.132 [warning] TextEditor is closed/disposed
+2023-09-01 12:28:17.852 [warning] TextEditor is closed/disposed
+2023-09-01 12:28:19.916 [warning] TextEditor is closed/disposed
+2023-09-01 12:29:18.314 [warning] TextEditor is closed/disposed
+2023-09-01 12:31:25.982 [error] Error: Illegal value for `line`
+    at $.t (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:961)
+    at Object.rangeOffset [as lineAt] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:90)
+    at r.value (/home/burgos/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10/packages/extension/dist/webpack:/auto-rename-tag/src/extensionMain.ts:319:41)
+    at f.w (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+    at f.x (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+    at fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+    at $acceptModelChanged (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10065)
+    at t.N (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7983)
+    at t.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7749)
+    at t.H (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:6830)
+    at t.G (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5906)
+    at r.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4736)
+    at f.w (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+    at fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+    at y.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+    at r.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:30355)
+    at f.w (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+    at fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+    at y.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28635)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-09-01 12:32:35.725 [error] Error: Illegal value for `line`
+    at $.t (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:961)
+    at Object.rangeOffset [as lineAt] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:90)
+    at r.value (/home/burgos/.vscode/extensions/formulahendry.auto-rename-tag-0.1.10/packages/extension/dist/webpack:/auto-rename-tag/src/extensionMain.ts:319:41)
+    at f.w (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+    at f.x (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+    at fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+    at $acceptModelChanged (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:10065)
+    at t.N (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7983)
+    at t.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7749)
+    at t.H (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:6830)
+    at t.G (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5906)
+    at r.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4736)
+    at f.w (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+    at fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+    at y.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+    at r.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:30355)
+    at f.w (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+    at fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+    at y.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28635)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-09-01 12:40:40.280 [warning] TextEditor is closed/disposed
+2023-09-01 12:40:44.975 [warning] TextEditor is closed/disposed
+2023-09-01 14:49:33.274 [warning] TextEditor is closed/disposed
+2023-09-01 14:49:33.694 [info] ExtensionService#_doActivateExtension passionkind.prettier-vscode-with-tabs, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2023-09-01 14:49:33.703 [error] Activating extension passionkind.prettier-vscode-with-tabs failed due to an error:
+2023-09-01 14:49:33.703 [error] Error: Cannot find module 'prettier-with-tabs'
+Require stack:
+- /home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/PrettierEditProvider.js
+- /home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/extension.js
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1010:15)
+    at Function.s._resolveFilename (node:electron/js2c/utility_init:2:2740)
+    at Module._load (node:internal/modules/cjs/loader:858:27)
+    at Function.f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Function.o._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28084)
+    at Function.f._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:25418)
+    at Function.C._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:19511)
+    at Module.require (node:internal/modules/cjs/loader:1082:19)
+    at g (/usr/share/code/resources/app/out/vs/loader.js:4:647)
+    at Object.<anonymous> (/home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/PrettierEditProvider.js:3:18)
+    at Module.u._compile (/usr/share/code/resources/app/out/vs/loader.js:4:1271)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1243:10)
+    at Module.load (node:internal/modules/cjs/loader:1058:32)
+    at Module._load (node:internal/modules/cjs/loader:893:12)
+    at Function.f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Function.o._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28084)
+    at Function.f._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:25418)
+    at Function.C._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:19511)
+    at Module.require (node:internal/modules/cjs/loader:1082:19)
+    at g (/usr/share/code/resources/app/out/vs/loader.js:4:647)
+    at Object.<anonymous> (/home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/extension.js:3:32)
+    at Module.u._compile (/usr/share/code/resources/app/out/vs/loader.js:4:1271)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1243:10)
+    at Module.load (node:internal/modules/cjs/loader:1058:32)
+    at Module._load (node:internal/modules/cjs/loader:893:12)
+    at Function.f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Function.o._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28084)
+    at Function.f._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:25418)
+    at Function.C._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:19511)
+    at Module.require (node:internal/modules/cjs/loader:1082:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Function.i [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:5:98)
+    at rb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:26597)
+    at async Promise.all (index 0)
+2023-09-01 15:09:48.629 [warning] TextEditor is closed/disposed
+2023-09-01 15:09:50.755 [warning] TextEditor is closed/disposed
+2023-09-01 15:15:44.999 [warning] TextEditor is closed/disposed
+2023-09-01 15:15:57.711 [warning] TextEditor is closed/disposed
+2023-09-01 15:16:11.255 [warning] TextEditor is closed/disposed
+2023-09-01 15:18:55.690 [warning] TextEditor is closed/disposed
+2023-09-01 15:19:30.620 [warning] TextEditor is closed/disposed
+2023-09-01 15:19:42.225 [warning] TextEditor is closed/disposed
+2023-09-01 15:20:18.982 [warning] TextEditor is closed/disposed
+2023-09-01 15:25:51.937 [warning] TextEditor is closed/disposed
+2023-09-01 15:25:55.285 [warning] TextEditor is closed/disposed
+2023-09-01 15:25:56.295 [warning] TextEditor is closed/disposed
+2023-09-01 15:25:59.496 [warning] TextEditor is closed/disposed
+2023-09-01 15:28:53.697 [warning] TextEditor is closed/disposed
+2023-09-01 15:28:54.834 [warning] TextEditor is closed/disposed

@@ -1,0 +1,172 @@
+2023-09-04 10:38:22.572 [info] Extension host with pid 11189 started
+2023-09-04 10:38:22.572 [info] Skipping acquiring lock for /home/burgos/.config/Code/User/workspaceStorage/9827355b0653292ad3a886ea5617ad29.
+2023-09-04 10:38:22.931 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-04 10:38:22.957 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-09-04 10:38:23.039 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onLanguage:javascript'
+2023-09-04 10:38:23.911 [info] ExtensionService#_doActivateExtension passionkind.prettier-vscode-with-tabs, startup: false, activationEvent: 'onLanguage:javascript'
+2023-09-04 10:38:23.934 [error] Activating extension passionkind.prettier-vscode-with-tabs failed due to an error:
+2023-09-04 10:38:23.934 [error] Error: Cannot find module 'prettier-with-tabs'
+Require stack:
+- /home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/PrettierEditProvider.js
+- /home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/extension.js
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+- 
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1010:15)
+	at s._resolveFilename (node:electron/js2c/utility_init:2:2740)
+	at Module._load (node:internal/modules/cjs/loader:858:27)
+	at f._load (node:electron/js2c/asar_bundle:2:13330)
+	at o._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28084)
+	at f._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:25418)
+	at C._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:19511)
+	at Module.require (node:internal/modules/cjs/loader:1082:19)
+	at g (/usr/share/code/resources/app/out/vs/loader.js:4:647)
+	at Object.<anonymous> (/home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/PrettierEditProvider.js:3:18)
+	at u._compile (/usr/share/code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1243:10)
+	at Module.load (node:internal/modules/cjs/loader:1058:32)
+	at Module._load (node:internal/modules/cjs/loader:893:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13330)
+	at o._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28084)
+	at f._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:25418)
+	at C._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:19511)
+	at Module.require (node:internal/modules/cjs/loader:1082:19)
+	at g (/usr/share/code/resources/app/out/vs/loader.js:4:647)
+	at Object.<anonymous> (/home/burgos/.vscode/extensions/passionkind.prettier-vscode-with-tabs-1.1.0/out/src/extension.js:3:32)
+	at u._compile (/usr/share/code/resources/app/out/vs/loader.js:4:1271)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1243:10)
+	at Module.load (node:internal/modules/cjs/loader:1058:32)
+	at Module._load (node:internal/modules/cjs/loader:893:12)
+	at f._load (node:electron/js2c/asar_bundle:2:13330)
+	at o._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28084)
+	at f._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:25418)
+	at C._load (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:19511)
+	at Module.require (node:internal/modules/cjs/loader:1082:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.i [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:5:98)
+	at r.rb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:26597)
+	at async Promise.all (index 0)
+2023-09-04 10:38:23.935 [info] ExtensionService#_doActivateExtension Prisma.prisma, startup: false, activationEvent: 'onLanguage:javascript'
+2023-09-04 10:38:25.858 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-04 10:38:25.864 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-09-04 10:38:25.925 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-09-04 10:38:26.064 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-09-04 10:38:26.121 [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.197 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.335 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.450 [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.560 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.593 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.992 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-09-04 10:38:30.004 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2023-09-04 10:38:30.717 [error] Activating extension Zignd.html-css-class-completion failed due to an error:
+2023-09-04 10:38:30.717 [error] Error: command 'html-css-class-completion.cache' already exists
+    at a.registerCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76383)
+    at Object.registerCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20180)
+    at /home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:949745
+    at Generator.next (<anonymous>)
+    at /home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:945427
+    at new Promise (<anonymous>)
+    at a (/home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:945172)
+    at t.activate (/home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:949006)
+    at Function.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13102)
+    at Function.db (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12816)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10913
+    at p.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6206)
+    at p.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6169)
+    at p.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:5626)
+2023-09-04 10:38:31.302 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2023-09-04 10:38:31.440 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-04 10:38:31.590 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-04 10:38:31.685 [info] Not activating extension 'ms-vscode.cmake-tools': Timed out while searching for 'workspaceContains' pattern */CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt
+2023-09-04 10:38:31.808 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-04 10:38:31.924 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) 
+2023-09-04 10:38:31.944 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:31.955 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:31.955 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:31.963 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:31.983 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:31.983 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:32.009 [error] Canceled: Canceled
+    at Object.I [as $4] (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4817
+    at Array.forEach (<anonymous>)
+    at t.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:4782)
+    at r.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:7818)
+    at s.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1506)
+    at C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32254)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:28679)
+    at MessagePortMain.emit (node:events:513:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-04 10:38:32.079 [info] Extension host with pid 11189 exiting with code 0

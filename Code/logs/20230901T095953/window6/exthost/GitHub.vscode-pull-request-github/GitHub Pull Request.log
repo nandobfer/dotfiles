@@ -1,0 +1,12 @@
+2023-09-01 16:49:26.243 [info] Looking for git repository
+2023-09-01 16:49:26.243 [info] Found 0 repositories during activation
+2023-09-01 16:49:26.243 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 16:49:26.247 [info] Registering git provider
+2023-09-01 16:49:26.247 [info] Review> Validate state in progress
+2023-09-01 16:49:26.247 [info] Review> Validating state...
+2023-09-01 16:49:26.288 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-api
+2023-09-01 16:49:26.864 [info] Repo state for file:///home/burgos/code/agenciaboz-api changed.
+2023-09-01 16:49:26.864 [info] Repo file:///home/burgos/code/agenciaboz-api has already been setup.
+2023-09-01 16:49:27.298 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 16:49:27.298 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 16:49:27.637 [info] Review> No matching pull request metadata found on GitHub for current branch master

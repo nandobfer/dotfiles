@@ -1,0 +1,18 @@
+2023-09-04 10:38:32.348 [info] Log level: Info
+2023-09-04 10:38:32.348 [info] Validating found git in: "git"
+2023-09-04 10:38:32.348 [info] Using git "2.34.1" from "git"
+2023-09-04 10:38:32.348 [info] > git rev-parse --show-toplevel [136ms]
+2023-09-04 10:38:32.348 [info] > git rev-parse --git-dir --git-common-dir [46ms]
+2023-09-04 10:38:32.348 [info] Open repository: /home/burgos/code/telele
+2023-09-04 10:38:32.348 [info] > git config --get commit.template [48ms]
+2023-09-04 10:38:32.400 [info] > git rev-parse --show-toplevel [65ms]
+2023-09-04 10:38:32.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+2023-09-04 10:38:32.473 [info] > git rev-parse --show-toplevel [34ms]
+2023-09-04 10:38:32.582 [info] > git status -z -uall [111ms]
+2023-09-04 10:38:32.582 [info] > git rev-parse --show-toplevel [32ms]
+2023-09-04 10:38:32.664 [info] > git config --get commit.template [7ms]
+2023-09-04 10:38:32.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [86ms]
+2023-09-04 10:38:32.855 [info] > git rev-parse --show-toplevel [138ms]
+2023-09-04 10:38:32.870 [info] > git status -z -uall [16ms]
+2023-09-04 10:38:32.965 [info] > git rev-parse --show-toplevel [12ms]
+2023-09-04 10:38:34.200 [info] > git check-ignore -v -z --stdin [45ms]

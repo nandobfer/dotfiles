@@ -1,0 +1,28 @@
+2023-09-01 12:23:32.848 [error] Error: The editor could not be opened because the file was not found.
+    at fh.bc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:19556)
+    at async fh.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:18643)
+    at async s.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:20269)
+    at async s.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:18937)
+    at async s.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:17925)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2480:12423
+2023-09-01 12:23:33.008 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.printWidth'. This property is already registered.
+2023-09-01 12:23:33.008 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.tabWidth'. This property is already registered.
+2023-09-01 12:23:33.009 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.singleQuote'. This property is already registered.
+2023-09-01 12:23:33.010 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.trailingComma'. This property is already registered.
+2023-09-01 12:23:33.010 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.bracketSpacing'. This property is already registered.
+2023-09-01 12:23:33.010 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.jsxBracketSameLine'. This property is already registered.
+2023-09-01 12:23:33.011 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.useTabs'. This property is already registered.
+2023-09-01 12:23:33.011 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-01 12:23:33.011 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.includeGlobPattern'. This property is already registered.
+2023-09-01 12:23:33.011 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.excludeGlobPattern'. This property is already registered.
+2023-09-01 12:23:33.011 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.enableEmmetSupport'. This property is already registered.
+2023-09-01 12:23:33.075 [info] [Zignd.html-css-class-completion]: Command `html-css-class-completion.cache` already registered by SCSS Everywhere (gencer.html-slim-scss-css-class-completion)
+2023-09-01 12:23:34.171 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx
+2023-09-01 12:23:35.815 [info] [perf] Render performance baseline is 68ms
+2023-09-01 12:25:36.770 [error] Error: The editor could not be opened because the file was not found.
+    at fh.bc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:19556)
+    at async fh.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:18643)
+    at async s.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:20269)
+    at async s.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:18937)
+    at async s.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2295:17925)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2480:12423

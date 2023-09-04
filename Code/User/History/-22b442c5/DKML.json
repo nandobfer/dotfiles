@@ -1,0 +1,61 @@
+{
+  "cmake.configureOnOpen": true,
+"files.autoSave": "onFocusChange",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}"
+  },
+"editor.detectIndentation": false,
+  "react-native.packager.port": 19000,
+  "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+  "prettier.printWidth": 150,
+  "gitlens.hovers.currentLine.over": "line",
+"remote.SSH.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+],
+  "remote.SSH.remotePlatform": {
+    "192.168.18.22": "linux",
+    "34.151.220.42": "linux",
+    "44.206.122.252": "linux",
+    "44.205.67.5": "linux",
+    "192.168.18.3": "linux"
+},
+"kite.showWelcomeNotificationOnStartup": false,
+"editor.formatOnSaveMode": "modifications",
+"css.format.spaceAroundSelectorSeparator": true,
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
+"javascript.updateImportsOnFileMove.enabled": "always",
+"editor.accessibilitySupport": "off",
+"editor.linkedEditing": true,
+"editor.fontFamily": "FiraCode Nerd Font",
+"editor.fontLigatures": true,
+"[python]": {
+    "editor.formatOnType": true
+},
+"splitHTMLAttributes.tabSize": 4,
+"splitHTMLAttributes.useSpacesForTabs": false,
+"editor.formatOnType": true,
+"powershell.startAutomatically": false,
+"editor.formatOnSave": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"prettier.semi": false,
+"prettier.tabWidth": 4,
+"explorer.confirmDragAndDrop": false,
+"workbench.iconTheme": "vscode-icons",
+"beautify.options": {
+    
+},
+"explorer.confirmDelete": false,
+"vsicons.dontShowNewVersionMessage": true,
+"editor.largeFileOptimizations": false,
+"html.format.wrapLineLength": 220,
+"window.zoomLevel": 7
+}

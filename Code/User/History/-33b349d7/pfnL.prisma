@@ -1,0 +1,82 @@
+generator client {
+    provider = "prisma-client-js"
+    previewFeatures = ["fullTextSearch", "fullTextIndex"]
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model User {
+    id              Int         @id @default(autoincrement())
+    username        String      @unique
+    email           String      @unique
+    password        String
+    name            String
+    cpf             String
+    birth           DateTime    @db.Date
+    phone           String      @default("")
+    image           String      @default("")
+
+    departmentId    Int
+    department      Department  @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+    roles           Role[]
+    statusLog       StatusLog[]
+    qrcodes         QrCode[]
+}
+
+model Department {
+    id              Int         @id @default(autoincrement())
+    name            String
+
+    users           User[]
+}
+
+model Role {
+    id              Int         @id @default(autoincrement())
+    tag             String      @unique
+    name            String
+
+    users           User[]
+}
+
+model Customer {
+    id              Int         @id @default(autoincrement())
+    name            String
+    active          Boolean
+    recomendations  String      @db.Text
+    image           String      @default("")
+    
+    services        Service[]
+    qrcodes         QrCode[]
+}
+
+model Service {
+    id              Int         @id @default(autoincrement())
+    tag             String      @unique
+    name            String
+    customers       Customer[]
+}
+
+model StatusLog {
+    id              Int         @id @default(autoincrement())
+    status          Int
+    datetime        DateTime    @default(now())
+
+    userId          Int
+    user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model QrCode {
+    id              Int         @id @default(autoincrement())
+    name            String
+    code            String      @db.Text
+    
+    datetime        DateTime    @default(now())
+    userId          Int
+    user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+    customerId      Int
+    customer        Customer    @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+}

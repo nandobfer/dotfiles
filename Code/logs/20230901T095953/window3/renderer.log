@@ -1,0 +1,32 @@
+2023-09-01 10:07:56.111 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.printWidth'. This property is already registered.
+2023-09-01 10:07:56.112 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.tabWidth'. This property is already registered.
+2023-09-01 10:07:56.112 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.singleQuote'. This property is already registered.
+2023-09-01 10:07:56.112 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.trailingComma'. This property is already registered.
+2023-09-01 10:07:56.112 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.bracketSpacing'. This property is already registered.
+2023-09-01 10:07:56.113 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.jsxBracketSameLine'. This property is already registered.
+2023-09-01 10:07:56.113 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.useTabs'. This property is already registered.
+2023-09-01 10:07:56.114 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-01 10:07:56.114 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.includeGlobPattern'. This property is already registered.
+2023-09-01 10:07:56.114 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.excludeGlobPattern'. This property is already registered.
+2023-09-01 10:07:56.115 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.enableEmmetSupport'. This property is already registered.
+2023-09-01 10:07:56.176 [info] [Zignd.html-css-class-completion]: Command `html-css-class-completion.cache` already registered by SCSS Everywhere (gencer.html-slim-scss-css-class-completion)
+2023-09-01 10:07:58.085 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx
+2023-09-01 10:07:58.447 [error] [Extension Host] (node:9240) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-09-01 10:08:00.561 [info] [perf] Render performance baseline is 69ms
+2023-09-01 11:39:20.572 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.printWidth'. This property is already registered.
+2023-09-01 11:39:20.572 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.tabWidth'. This property is already registered.
+2023-09-01 11:39:20.573 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.singleQuote'. This property is already registered.
+2023-09-01 11:39:20.573 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.trailingComma'. This property is already registered.
+2023-09-01 11:39:20.573 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.bracketSpacing'. This property is already registered.
+2023-09-01 11:39:20.573 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.jsxBracketSameLine'. This property is already registered.
+2023-09-01 11:39:20.574 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.useTabs'. This property is already registered.
+2023-09-01 11:39:20.575 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-01 11:39:20.575 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.includeGlobPattern'. This property is already registered.
+2023-09-01 11:39:20.575 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.excludeGlobPattern'. This property is already registered.
+2023-09-01 11:39:20.576 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.enableEmmetSupport'. This property is already registered.
+2023-09-01 11:39:20.643 [info] [Zignd.html-css-class-completion]: Command `html-css-class-completion.cache` already registered by SCSS Everywhere (gencer.html-slim-scss-css-class-completion)
+2023-09-01 11:39:22.443 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx
+2023-09-01 11:39:23.780 [error] [Extension Host] (node:16244) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-09-01 11:39:25.314 [info] [perf] Render performance baseline is 140ms

@@ -1,0 +1,35 @@
+#!/bin/bash
+
+PULL=false
+START=true
+DEV=false
+
+# Parse the command line options
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -p|--pull) PULL=true; shift; shift ;;
+        -s|--start) START=$2; shift; shift ;;
+        -d|--dev) DEV=true; shift; $START=false ; shift ;;
+        *) REPO="$1"; shift ; shift ;;
+    esac
+done
+
+cd ~/code/$REPO
+
+# Check if the repository name is provided
+if [ [$PULL] ]; then
+    git pull
+fi
+
+if [[ $START == true ]]; then
+    echo "starting server"
+    yarn start
+fi
+
+if [[ $DEV ]]; then
+    echo "starting server in development mode"
+    yarn dev
+fi
+
+code .
+

@@ -1,0 +1,13 @@
+2023-09-04 10:38:34.012 [info] Looking for git repository
+2023-09-04 10:38:34.012 [info] Found 0 repositories during activation
+2023-09-04 10:38:34.012 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-04 10:38:34.024 [info] Registering git provider
+2023-09-04 10:38:34.667 [info] Git initialization state changed: state=initialized
+2023-09-04 10:38:34.667 [info] Review> Validate state in progress
+2023-09-04 10:38:34.667 [info] Review> Validating state...
+2023-09-04 10:38:34.720 [info] Found GitHub remote for folder /home/burgos/code/agenciaboz-dev/sion.api
+2023-09-04 10:38:35.282 [info] Repo state for file:///home/burgos/code/agenciaboz-dev/sion.api changed.
+2023-09-04 10:38:35.282 [info] Repo file:///home/burgos/code/agenciaboz-dev/sion.api has already been setup.
+2023-09-04 10:38:35.285 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-04 10:38:35.285 [info] Review> no matching pull request metadata found for current branch main
+2023-09-04 10:38:35.885 [info] Review> No matching pull request metadata found on GitHub for current branch main

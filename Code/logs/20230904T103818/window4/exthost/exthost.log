@@ -1,0 +1,47 @@
+2023-09-04 10:38:22.695 [info] Extension host with pid 11196 started
+2023-09-04 10:38:22.695 [info] Skipping acquiring lock for /home/burgos/.config/Code/User/workspaceStorage/bd56322203ab03c0d19525d78c3ca738.
+2023-09-04 10:38:23.082 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-04 10:38:23.095 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-09-04 10:38:23.142 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onLanguage:typescript'
+2023-09-04 10:38:24.004 [info] ExtensionService#_doActivateExtension Prisma.prisma, startup: false, activationEvent: 'onLanguage:typescript'
+2023-09-04 10:38:25.072 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-04 10:38:25.095 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-09-04 10:38:25.152 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-09-04 10:38:25.283 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-09-04 10:38:25.333 [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: true, activationEvent: '*'
+2023-09-04 10:38:27.425 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-09-04 10:38:27.443 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-09-04 10:38:27.474 [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier, startup: true, activationEvent: '*'
+2023-09-04 10:38:27.672 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-09-04 10:38:27.691 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2023-09-04 10:38:28.026 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-09-04 10:38:28.043 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2023-09-04 10:38:29.327 [error] Activating extension Zignd.html-css-class-completion failed due to an error:
+2023-09-04 10:38:29.327 [error] Error: command 'html-css-class-completion.cache' already exists
+    at a.registerCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:76383)
+    at Object.registerCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:20180)
+    at /home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:949745
+    at Generator.next (<anonymous>)
+    at /home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:945427
+    at new Promise (<anonymous>)
+    at a (/home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:945172)
+    at t.activate (/home/burgos/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js:2:949006)
+    at Function.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:13102)
+    at Function.db (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12816)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10913
+    at p.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6206)
+    at p.m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:6169)
+    at p.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:5626)
+2023-09-04 10:38:29.390 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2023-09-04 10:38:29.713 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-04 10:38:29.977 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-04 10:38:32.021 [info] Eager extensions activated
+2023-09-04 10:38:32.044 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-04 10:38:32.134 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:32.137 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:32.147 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:32.227 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:32.296 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:32.359 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:33.288 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-09-04 10:38:33.719 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'

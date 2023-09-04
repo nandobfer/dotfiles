@@ -1,0 +1,14 @@
+2023-09-01 16:49:21.571 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.printWidth'. This property is already registered.
+2023-09-01 16:49:21.571 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.tabWidth'. This property is already registered.
+2023-09-01 16:49:21.572 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.singleQuote'. This property is already registered.
+2023-09-01 16:49:21.572 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.trailingComma'. This property is already registered.
+2023-09-01 16:49:21.572 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.bracketSpacing'. This property is already registered.
+2023-09-01 16:49:21.572 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.jsxBracketSameLine'. This property is already registered.
+2023-09-01 16:49:21.573 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.useTabs'. This property is already registered.
+2023-09-01 16:49:21.573 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-01 16:49:21.573 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.includeGlobPattern'. This property is already registered.
+2023-09-01 16:49:21.573 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.excludeGlobPattern'. This property is already registered.
+2023-09-01 16:49:21.574 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.enableEmmetSupport'. This property is already registered.
+2023-09-01 16:49:21.620 [info] [Zignd.html-css-class-completion]: Command `html-css-class-completion.cache` already registered by SCSS Everywhere (gencer.html-slim-scss-css-class-completion)
+2023-09-01 16:49:23.398 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx
+2023-09-01 16:49:25.938 [info] [perf] Render performance baseline is 61ms

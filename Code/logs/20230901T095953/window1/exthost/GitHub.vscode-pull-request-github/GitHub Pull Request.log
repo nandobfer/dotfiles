@@ -1,0 +1,12 @@
+2023-09-01 09:59:59.187 [info] Looking for git repository
+2023-09-01 09:59:59.187 [info] Found 0 repositories during activation
+2023-09-01 09:59:59.187 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 09:59:59.189 [info] Registering git provider
+2023-09-01 09:59:59.189 [info] Review> Validate state in progress
+2023-09-01 09:59:59.189 [info] Review> Validating state...
+2023-09-01 09:59:59.223 [info] Found GitHub remote for folder /home/burgos/code/casaludica.paint
+2023-09-01 10:00:00.092 [info] Repo state for file:///home/burgos/code/casaludica.paint changed.
+2023-09-01 10:00:00.092 [info] Repo file:///home/burgos/code/casaludica.paint has already been setup.
+2023-09-01 10:00:00.094 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:00:00.094 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:00:00.476 [info] Review> No matching pull request metadata found on GitHub for current branch master

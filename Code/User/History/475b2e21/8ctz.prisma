@@ -1,0 +1,138 @@
+generator client {
+    provider = "prisma-client-js" 
+    previewFeatures = ["fullTextSearch", "fullTextIndex"]
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model users {
+    id          Int         @id @default(autoincrement())
+    username    String      @unique
+    email       String      @unique
+    password    String
+    name        String
+    phone       String      @default("")
+    adm         Boolean     @default(false)
+    cpf         String      @default("02576698506")
+    addresses   addresses[]
+    cards       cards[]
+    orders      orders[]
+}
+
+model cards {
+    id                  Int         @id @default(autoincrement())
+    name                String
+    number              String
+    expiration_month    String
+    expiration_year     String
+    cvv                 String
+    type                String
+    users               users       @relation(fields: [user], references: [id])
+    user                Int
+}
+
+model addresses {
+    id          Int         @id @default(autoincrement())
+    receiver    String
+    phone       String
+    cep         String
+    address     String
+    number      Int
+    complement  String?
+    district    String
+    city        String
+    uf          String      @db.Char(2)
+    users       users?      @relation(fields: [user], references: [id])
+    user        Int?
+    orders      orders[]
+}
+
+model products {
+    id              Int         @id @default(autoincrement())
+    name            String
+    description     String      @db.Text
+    brand           String      @default("")
+    stock           Int
+    stock_warehouse Int         @default(0)
+    stock_type      Int         @default(0)
+    shelf           String?
+    story           String      @db.Text
+    usage           String?     @db.Text
+    price           Float
+    profit          Float       @default(25)
+    cost            Float       @default(0)
+    image           String?     @db.Text
+    gallery         String?     @db.Text
+    video           String      @db.Text
+    specifications  String      @db.Text
+    weight          Float       @default(5)
+    width           Float       @default(5)
+    height          Float       @default(5)
+    length          Float       @default(5)
+    preparation     Int         @default(1)
+    prep_unit       Int         @default(2)
+    orderProduct    orderProduct[]
+    categories      categories[]
+    supplier        suppliers?  @relation(fields: [supplier_id], references: [id])
+    supplier_id     Int?        @default(1)
+    rating          Int         @default(0)
+    ratings         Int         @default(0)
+    ncm             String      @default("")
+    aliquot         Int         @default(0)
+}
+
+model orders {
+    id              Int         @id @default(autoincrement())
+    products        orderProduct[]
+    user            users       @relation(fields: [user_id], references: [id])
+    user_id         Int
+    delivery        Boolean?
+    frete           String?
+    status          Int         @default(0)
+    date            DateTime    @default(now())
+    method          String?
+    address         addresses?  @relation(fields: [address_id], references: [id])
+    address_id      Int?        @default(1)
+    name            String      @default("Teste da Silva")
+    cpf             String      @default("00000000000")
+    value           Float       @default(0)
+    error           String?     @db.Text
+    review          Boolean     @default(false)
+    nfe             String?     @db.Text
+}
+
+model orderProduct {
+    orderId         Int
+    productId       Int
+    quantity        Int
+    order           orders           @relation(fields: [orderId], references: [id])
+    product         products         @relation(fields: [productId], references: [id])
+
+    @@id([orderId, productId])
+}
+
+model pagseguro {
+    id              Int         @id @default(autoincrement())
+    private         String      @db.Text
+    public          String      @db.Text
+    timestamp       Int
+}
+
+model categories {
+    id                  Int         @id @default(autoincrement())
+    name                String
+    image               String?     @db.Text
+    products            products[]
+}
+
+model suppliers {
+    id                  Int         @id @default(autoincrement())
+    code                String
+    name                String
+    document            String
+    contact             String
+    products            products[]
+}

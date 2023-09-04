@@ -1,0 +1,75 @@
+2023-09-01 12:23:36.068 [info] Looking for git repository
+2023-09-01 12:23:36.068 [info] Found 0 repositories during activation
+2023-09-01 12:23:36.068 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 12:23:36.071 [info] Registering git provider
+2023-09-01 12:23:36.071 [info] Review> Validate state in progress
+2023-09-01 12:23:36.071 [info] Review> Validating state...
+2023-09-01 12:23:36.135 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 12:23:36.900 [info] Repo state for file:///home/burgos/code/sion changed.
+2023-09-01 12:23:36.900 [info] Repo file:///home/burgos/code/sion has already been setup.
+2023-09-01 12:23:36.903 [info] Review> current branch painel is associated with pull request #1
+2023-09-01 12:23:36.903 [info] Review> Resolving pull request
+2023-09-01 12:23:38.269 [info] Review> Fetching pull request data
+2023-09-01 12:23:38.269 [info] PullRequestTree> Adding PR #1 to tree
+2023-09-01 12:23:38.420 [info] Review> Register comments provider
+2023-09-01 12:23:41.992 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-09-01 12:23:41.992 [info] Review> Using focus mode = true.
+2023-09-01 12:23:41.992 [info] Review> State validation silent = true.
+2023-09-01 12:23:41.992 [info] Review> PR show should show = false.
+2023-09-01 14:47:07.811 [info] Review> Validate state in progress
+2023-09-01 14:47:07.811 [info] Review> Validating state...
+2023-09-01 14:47:07.882 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 14:47:07.884 [info] Trying to use globalState for mentionable users.
+2023-09-01 14:47:08.032 [info] Using globalState mentionable users for 1.
+2023-09-01 14:47:08.082 [info] Review> current branch painel is associated with pull request #1
+2023-09-01 14:47:08.082 [info] Review> Resolving pull request
+2023-09-01 14:47:10.541 [info] Review> Validate state in progress
+2023-09-01 14:47:10.541 [info] Review> Validating state...
+2023-09-01 14:47:10.569 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 14:47:10.570 [info] Trying to use globalState for mentionable users.
+2023-09-01 14:47:10.713 [info] Using globalState mentionable users for 1.
+2023-09-01 14:47:10.769 [info] Review> current branch painel is associated with pull request #1
+2023-09-01 14:47:10.769 [info] Review> Resolving pull request
+2023-09-01 14:47:11.811 [info] Review> Fetching pull request data
+2023-09-01 14:47:11.811 [info] PullRequestTree> Adding PR #1 to tree
+2023-09-01 14:47:11.835 [info] Review> Register comments provider
+2023-09-01 14:47:16.711 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-09-01 14:47:16.711 [info] Review> Using focus mode = true.
+2023-09-01 14:47:16.711 [info] Review> State validation silent = true.
+2023-09-01 14:47:16.711 [info] Review> PR show should show = false.
+2023-09-01 14:49:25.860 [info] Review> Validate state in progress
+2023-09-01 14:49:25.867 [info] Review> Validating state...
+2023-09-01 14:49:25.942 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 14:49:25.943 [info] Trying to use globalState for mentionable users.
+2023-09-01 14:49:26.024 [info] Using globalState mentionable users for 1.
+2023-09-01 14:49:26.105 [info] Review> current branch master is associated with pull request #1
+2023-09-01 14:49:26.105 [info] Review> Resolving pull request
+2023-09-01 14:49:27.494 [info] Review> Fetching pull request data
+2023-09-01 14:49:27.494 [info] PullRequestTree> Adding PR #1 to tree
+2023-09-01 14:49:27.494 [info] PullRequestTree> PR #1 already exists in tree
+2023-09-01 14:49:27.494 [info] Review> Register comments provider
+2023-09-01 14:49:30.519 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-09-01 14:49:30.519 [info] Review> Using focus mode = true.
+2023-09-01 14:49:30.519 [info] Review> State validation silent = true.
+2023-09-01 14:49:30.519 [info] Review> PR show should show = false.
+2023-09-01 15:11:58.080 [info] Review> Validate state in progress
+2023-09-01 15:11:58.081 [info] Review> Validating state...
+2023-09-01 15:11:58.160 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 15:11:58.898 [info] Trying to use globalState for mentionable users.
+2023-09-01 15:11:59.063 [info] Using globalState mentionable users for 1.
+2023-09-01 15:11:59.252 [info] Review> No matching pull request metadata found locally for current branch vendas
+2023-09-01 15:11:59.252 [info] Review> no matching pull request metadata found for current branch vendas
+2023-09-01 15:11:59.975 [info] Review> No matching pull request metadata found on GitHub for current branch vendas
+2023-09-01 15:11:59.975 [info] PullRequestTree> Removing PR #1 from tree
+2023-09-01 15:28:32.891 [info] Review> Validate state in progress
+2023-09-01 15:28:32.892 [info] Review> Validating state...
+2023-09-01 15:28:32.948 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 15:28:33.974 [info] Review> No matching pull request metadata found locally for current branch vendas
+2023-09-01 15:28:33.974 [info] Review> no matching pull request metadata found for current branch vendas
+2023-09-01 15:28:34.522 [info] Review> No matching pull request metadata found on GitHub for current branch vendas
+2023-09-01 15:28:35.011 [info] Review> Validate state in progress
+2023-09-01 15:28:35.011 [info] Review> Validating state...
+2023-09-01 15:28:35.030 [info] Found GitHub remote for folder /home/burgos/code/sion
+2023-09-01 15:28:35.826 [info] Review> No matching pull request metadata found locally for current branch vendas
+2023-09-01 15:28:35.826 [info] Review> no matching pull request metadata found for current branch vendas
+2023-09-01 15:28:36.130 [info] Review> No matching pull request metadata found on GitHub for current branch vendas

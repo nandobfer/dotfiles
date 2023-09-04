@@ -1,0 +1,96 @@
+2023-09-01 10:08:00.379 [info] Looking for git repository
+2023-09-01 10:08:00.379 [info] Found 0 repositories during activation
+2023-09-01 10:08:00.379 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 10:08:00.382 [info] Registering git provider
+2023-09-01 10:08:00.382 [info] Review> Validate state in progress
+2023-09-01 10:08:00.382 [info] Review> Validating state...
+2023-09-01 10:08:00.513 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:08:04.683 [info] Repo state for file:///home/burgos/code/telele changed.
+2023-09-01 10:08:04.683 [info] Repo file:///home/burgos/code/telele has already been setup.
+2023-09-01 10:08:04.685 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:08:04.685 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:08:05.185 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:20:24.607 [info] Review> Validate state in progress
+2023-09-01 10:20:24.608 [info] Review> Validating state...
+2023-09-01 10:20:24.671 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:20:25.762 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:20:25.762 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:20:26.101 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:20:26.899 [info] Review> Validate state in progress
+2023-09-01 10:20:26.899 [info] Review> Validating state...
+2023-09-01 10:20:26.924 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:20:27.849 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:20:27.849 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:20:28.179 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:23:57.999 [info] Review> Validate state in progress
+2023-09-01 10:23:57.999 [info] Review> Validating state...
+2023-09-01 10:23:58.080 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:23:58.917 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:23:58.917 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:23:59.397 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:47:46.071 [info] Review> Validate state in progress
+2023-09-01 10:47:46.071 [info] Review> Validating state...
+2023-09-01 10:47:46.127 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:47:47.103 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:47:47.103 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:47:47.446 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:47:48.670 [info] Review> Validate state in progress
+2023-09-01 10:47:48.670 [info] Review> Validating state...
+2023-09-01 10:47:48.703 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:47:49.519 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:47:49.519 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:47:49.942 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:50:57.623 [info] Review> Validate state in progress
+2023-09-01 10:50:57.623 [info] Review> Validating state...
+2023-09-01 10:50:57.689 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:50:58.665 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:50:58.665 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:50:59.129 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:50:59.841 [info] Review> Validate state in progress
+2023-09-01 10:50:59.841 [info] Review> Validating state...
+2023-09-01 10:50:59.867 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:51:00.650 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:51:00.650 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:51:00.971 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:56:57.529 [info] Review> Validate state in progress
+2023-09-01 10:56:57.529 [info] Review> Validating state...
+2023-09-01 10:56:57.582 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:56:58.411 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:56:58.412 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:56:58.846 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 10:56:59.625 [info] Review> Validate state in progress
+2023-09-01 10:56:59.625 [info] Review> Validating state...
+2023-09-01 10:56:59.645 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 10:57:00.632 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 10:57:00.633 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 10:57:00.978 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 11:21:45.963 [info] Review> Validate state in progress
+2023-09-01 11:21:45.963 [info] Review> Validating state...
+2023-09-01 11:21:46.012 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 11:21:46.893 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 11:21:46.893 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 11:21:47.310 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 11:39:25.996 [info] Looking for git repository
+2023-09-01 11:39:25.996 [info] Found 0 repositories during activation
+2023-09-01 11:39:25.996 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-01 11:39:25.999 [info] Registering git provider
+2023-09-01 11:39:25.999 [info] Review> Validate state in progress
+2023-09-01 11:39:25.999 [info] Review> Validating state...
+2023-09-01 11:39:26.021 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 11:39:26.958 [info] Review> Queuing additional validate state
+2023-09-01 11:39:26.958 [info] Repo state for file:///home/burgos/code/telele changed.
+2023-09-01 11:39:26.958 [info] Repo file:///home/burgos/code/telele has already been setup.
+2023-09-01 11:39:26.960 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 11:39:26.960 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 11:39:27.337 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 11:39:27.349 [info] Review> Validating state...
+2023-09-01 11:39:27.356 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 11:39:28.116 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 11:39:28.116 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 11:39:28.564 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-09-01 11:39:29.831 [info] Review> Validate state in progress
+2023-09-01 11:39:29.831 [info] Review> Validating state...
+2023-09-01 11:39:29.858 [info] Found GitHub remote for folder /home/burgos/code/telele
+2023-09-01 11:39:30.585 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-01 11:39:30.585 [info] Review> no matching pull request metadata found for current branch master
+2023-09-01 11:39:30.949 [info] Review> No matching pull request metadata found on GitHub for current branch master

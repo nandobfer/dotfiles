@@ -1,0 +1,58 @@
+.MuiList-root {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.MuiTextField-root {
+    width: 100%;
+}
+
+/* .slide-routes {
+    width: 100%;
+    overflow-y: auto!important;
+    height: 100%;
+
+    .item {
+        width: 100%;
+        height: 100%;
+
+    }
+} */
+
+
+form {
+    display: contents;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+section {
+    display: contents;
+}
+
+div {
+    display: flex;
+}
+
+img {
+    object-fit: contain;
+}

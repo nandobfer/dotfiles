@@ -1,0 +1,7 @@
+
+[Default Applications]
+text/html=opera_opera.desktop
+x-scheme-handler/http=opera_opera.desktop
+x-scheme-handler/https=opera_opera.desktop
+x-scheme-handler/about=opera_opera.desktop
+x-scheme-handler/unknown=opera_opera.desktop

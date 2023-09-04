@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=fernando@agenciazop.com.br
+Enabled=true
+Parent=d1f0c313b8c30108cc8a096c5e1c212d1453ff72
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=4adb16f747b82e7dd40b36cfe5343c3a9eeea69d
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=fernando@agenciazop.com.br
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

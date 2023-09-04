@@ -1,0 +1,16 @@
+2023-09-04 10:38:21.326 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.printWidth'. This property is already registered.
+2023-09-04 10:38:21.327 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.tabWidth'. This property is already registered.
+2023-09-04 10:38:21.327 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.singleQuote'. This property is already registered.
+2023-09-04 10:38:21.327 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.trailingComma'. This property is already registered.
+2023-09-04 10:38:21.328 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.bracketSpacing'. This property is already registered.
+2023-09-04 10:38:21.328 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.jsxBracketSameLine'. This property is already registered.
+2023-09-04 10:38:21.328 [warning] [passionkind.prettier-vscode-with-tabs]: Cannot register 'prettier.useTabs'. This property is already registered.
+2023-09-04 10:38:21.328 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-09-04 10:38:21.329 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.includeGlobPattern'. This property is already registered.
+2023-09-04 10:38:21.329 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.excludeGlobPattern'. This property is already registered.
+2023-09-04 10:38:21.329 [warning] [Zignd.html-css-class-completion]: Cannot register 'html-css-class-completion.enableEmmetSupport'. This property is already registered.
+2023-09-04 10:38:21.562 [info] [Zignd.html-css-class-completion]: Command `html-css-class-completion.cache` already registered by SCSS Everywhere (gencer.html-slim-scss-css-class-completion)
+2023-09-04 10:38:29.415 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx
+2023-09-04 10:38:29.972 [error] [Extension Host] (node:11187) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-09-04 10:38:31.097 [info] [perf] Render performance baseline is 82ms

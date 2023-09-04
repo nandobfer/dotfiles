@@ -1,0 +1,23 @@
+[Data Source]
+DisplayName=fernando@agenciazop.com.br
+Enabled=true
+Parent=d1f0c313b8c30108cc8a096c5e1c212d1453ff72
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=fernando@agenciazop.com.br
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Mail Transport]
+BackendName=smtp
+
+[Smtp Backend]
+ReencodeData=false

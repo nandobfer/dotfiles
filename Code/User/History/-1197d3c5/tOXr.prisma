@@ -1,0 +1,161 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model contracts {
+    id          Int      @id @default(autoincrement())
+    unit        String   @unique(map: "unit")
+    subunits    String?  @db.Text
+    date        DateTime @db.Date
+    ip          String
+    pessoa      String   
+    supplier    String  
+    name        String
+    birth       DateTime @db.Date
+    email       String  
+    phone       String  
+    cep         String  
+    address     String  
+    district    String
+    number      String
+    city        String
+    state       String
+    cnpj        String?
+    company     String? 
+    category    String? 
+    cpf         String? 
+    rg          String?
+    filename    String?
+    signatures  String?   
+    status      contractStatus? @relation(fields: [statusId], references: [id])  
+    statusId    Int?          
+    active      Boolean  @default(false)
+    archived    Boolean  @default(false)
+    reproved    Boolean  @default(false)
+    wrong       Boolean  @default(false)
+    seller      users    @relation(fields: [seller_id], references: [id])
+    seller_id   Int      
+    rdstation   rdstation?
+    omie        omie?
+    financial   financial?
+    logs        logs[]
+}
+
+model emails {
+    id    Int     @id @default(autoincrement())
+    email String?
+}
+
+model users {
+    id            Int       @id @default(autoincrement())
+    username      String    @unique
+    email         String    @unique
+    password      String
+    name          String
+    phone         String    @default("4134221864")
+    birth         DateTime  @db.Date
+    cpf           String    @default("02576698506")
+    rg            String?    
+    address       String?    
+    number        String?    
+    district      String?    
+    cep           String?  
+    adm           Boolean   @default(false)
+    role          Int       @default(1)  
+    ip            String    @default("0.0.0.0")
+    contracts     contracts[]
+    logs          logs[]
+    texts         texts[]
+    images        images[]
+    userLogs      userLogs[]
+}
+
+model financial {
+    id          Int         @id @default(autoincrement())
+    name        String 
+    phone       String 
+    email       String  
+    login       String?
+    password    String?
+    contract    contracts   @relation(fields: [contract_id], references: [id])
+    contract_id Int         @unique
+}
+
+model settings {
+    id          Int         @id @default(autoincrement())
+    greenFlagRate        Float       @default(1)
+    yellowFlagRate        Float       @default(1)
+    redFlagRate        Float       @default(1)
+    red2FlagRate        Float       @default(1)
+}
+
+model rdstation {
+    id          String      @unique
+    state       Int         @default(1)
+    contract    contracts   @relation(fields: [contract_id], references: [id])
+    contract_id Int         @unique
+}
+
+model omie {
+    id          String      @unique
+    bill        Int?
+    contract    contracts   @relation(fields: [contract_id], references: [id])
+    contract_id Int         @unique
+}
+
+model logs {
+    id              Int         @id @default(autoincrement())
+    date            DateTime    @default(now())
+    text            String      @db.Text
+    contract        contracts   @relation(fields: [contract_id], references: [id])
+    contract_id     Int          
+    seller          users       @relation(fields: [seller_id], references: [id])
+    seller_id       Int         
+}
+
+model userLogs {
+    id              Int         @id @default(autoincrement())
+    user            users       @relation(fields: [user_id], references: [id])
+    user_id         Int  
+    text            String      @db.Text
+    date            DateTime
+}
+
+model texts {
+    id              Int         @id @default(autoincrement())
+    section         Int
+    text            String      @db.Text()
+    date            DateTime    @default(now())
+    user            users       @relation(fields: [user_id], references: [id])
+    user_id         Int
+}
+
+model images {
+    id              Int         @id @default(autoincrement())
+    src             String      @db.Text
+    name            String
+    title           String
+    date            DateTime    @default(now())
+    user            users       @relation(fields: [user_id], references: [id])
+    user_id         Int         @default(2)
+    size            String      @default("1280x720")
+}
+
+model contractStatus {
+    id              Int         @id @default(autoincrement())
+    name            String
+    contracts       contracts[]
+}
+
+model boards {
+    id              Int         @id @default(autoincrement())
+    columns         String      @db.Text
+    // [{"name": "Aguardando", "status": 1}, {"name": "Aprovados", "status": 3}]
+    name            String
+    access          Int         @default(0)
+}

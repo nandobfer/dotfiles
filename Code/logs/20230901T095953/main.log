@@ -1,0 +1,28 @@
+2023-09-01 09:59:53.883 [info] update#setState idle
+2023-09-01 10:00:23.886 [info] update#setState checking for updates
+2023-09-01 10:00:24.132 [info] update#setState idle
+2023-09-01 10:07:52.166 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-01 10:07:52.167 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 9032]: crashed with code 15 and reason 'killed'
+2023-09-01 10:07:52.194 [info] Extension host with pid 9043 exited with code: 0, signal: unknown.
+2023-09-01 11:00:23.891 [info] update#setState checking for updates
+2023-09-01 11:00:24.234 [info] update#setState idle
+2023-09-01 11:39:19.610 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-01 11:39:19.611 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 9250]: crashed with code 15 and reason 'killed'
+2023-09-01 11:39:19.649 [info] Extension host with pid 9240 exited with code: 0, signal: unknown.
+2023-09-01 12:00:23.893 [info] update#setState checking for updates
+2023-09-01 12:00:24.216 [info] update#setState idle
+2023-09-01 13:00:23.896 [info] update#setState checking for updates
+2023-09-01 13:00:24.375 [info] update#setState idle
+2023-09-01 14:00:24.012 [info] update#setState checking for updates
+2023-09-01 14:00:24.442 [info] update#setState idle
+2023-09-01 14:35:08.380 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-01 14:35:08.381 [error] [UtilityProcess id: 5, type: fileWatcher, pid: 21795]: crashed with code 15 and reason 'killed'
+2023-09-01 14:35:08.398 [info] Extension host with pid 21785 exited with code: 0, signal: unknown.
+2023-09-01 15:00:24.021 [info] update#setState checking for updates
+2023-09-01 15:00:24.947 [info] update#setState idle
+2023-09-01 16:00:24.031 [info] update#setState checking for updates
+2023-09-01 16:00:24.450 [info] update#setState idle
+2023-09-01 17:00:24.041 [info] update#setState checking for updates
+2023-09-01 17:00:24.473 [info] update#setState idle
+2023-09-01 18:00:24.043 [info] update#setState checking for updates
+2023-09-01 18:00:24.566 [info] update#setState idle

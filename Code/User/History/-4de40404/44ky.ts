@@ -1,0 +1,1 @@
+const newService = (data: NewServiceForm) => {}

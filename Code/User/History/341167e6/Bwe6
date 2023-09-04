@@ -1,0 +1,24 @@
+#!/bin/bash
+
+PULL=false
+START=true
+DEV=false
+
+# Parse the command line options
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -p|--pull) PULL=true; shift; shift ;;
+        -s|--start) START=$2; shift; shift ;;
+        -d|--dev) DEV=true; exit 0 ;;
+        *) REPO="$1"; shift ; DIR_NAME="$1"; shift ;;
+    esac
+done
+
+# Check if the repository name is provided
+if [ $REPO ]; then
+    echo "Error: Please provide a repository name"
+    exit 1
+fi
+
+
+
